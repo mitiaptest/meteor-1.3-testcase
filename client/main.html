@@ -1,0 +1,22 @@
+<head>
+  <title>Test Case Example</title>
+</head>
+
+<body>
+  <div class="container" ng-app="auth0" ng-controller="auth0Ctrl">
+    <header>
+      <h1>Test Case Example</h1>
+    </header>
+
+    <ul>
+      <li ng-repeat="task in tasks">
+        {{task.text}}
+      </li>
+    </ul>
+
+    <button ng-click="runTestCases()">
+    Run Test Cases
+    </button>
+
+  </div>
+</body>

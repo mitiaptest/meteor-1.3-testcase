@@ -1,0 +1,11 @@
+{
+  "private": true,
+  "devDependencies": {
+    "@sanjo/jasmine-expect": "^1.0.0",
+    "@sanjo/jasmine-spy": "^1.0.0",
+    "angular-mocks":"^1.5.5"
+  },
+  "dependencies": {
+    "meteor-node-stubs": "^0.2.3"
+  }
+}
